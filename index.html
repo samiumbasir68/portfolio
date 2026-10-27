@@ -312,8 +312,8 @@ function render(d){
   const visible=ORDER.filter(k=>d[k]&&d[k].show!==false);
   document.getElementById('quick').innerHTML=[['work','Work'],['research','Research'],['publications','Publications']].filter(([k])=>visible.includes(k)).map(([k,t])=>`<li><a href="#${k}">${t}</a></li>`).join('');
   document.getElementById('mLogo').innerHTML=`${esc(site.logo||site.name)}<span>.</span>`;
-  document.getElementById('mList').innerHTML=`<li style="animation-delay:0s"><a href="#home"><span class="no">00</span><i class="fa-solid fa-house"></i>Home</a></li>`+
-    visible.map((k,i)=>`<li style="animation-delay:${(i+1)*.04}s"><a href="#${k}"><span class="no">${String(i+1).padStart(2,'0')}</span><i class="fa-solid ${ICONS[k]}"></i>${esc(d[k].title)}</a></li>`).join('');
+  document.getElementById('mList').innerHTML=`<li style="animation-delay:0s"><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>`+
+    visible.map((k,i)=>`<li style="animation-delay:${(i+1)*.04}s"><a href="#${k}"><i class="fa-solid ${ICONS[k]}"></i>${esc(d[k].title)}</a></li>`).join('');
   const initials=(site.name||'').split(' ').filter(w=>w.length>2).map(w=>w[0]).slice(-2).join('');
   const soc=[['email','fa-solid fa-envelope','mailto:'],['linkedin','fa-brands fa-linkedin-in',''],['scholar','fa-brands fa-google-scholar',''],['researchgate','fa-brands fa-researchgate',''],['orcid','fa-brands fa-orcid','']]
     .filter(([k])=>site[k]).map(([k,ic,pre])=>`<a href="${pre}${esc(site[k])}" target="_blank" rel="noopener" title="${k}"><i class="${ic}"></i></a>`).join('');
