@@ -17,7 +17,7 @@ collections:
   files:
   - name: profile
     label: 1. Profile & Hero
-    file: content/site.json
+    file: site.json
     fields:
     - label: Full name
       name: name
@@ -75,7 +75,7 @@ collections:
       required: false
   - name: about
     label: 2. About
-    file: content/about.json
+    file: about.json
     fields:
     - label: Show this section
       name: show
@@ -127,7 +127,7 @@ collections:
         widget: string
   - name: education
     label: 3. Education
-    file: content/education.json
+    file: education.json
     fields:
     - label: Show this section
       name: show
@@ -163,7 +163,7 @@ collections:
         required: false
   - name: work
     label: 4. Work
-    file: content/work.json
+    file: work.json
     fields:
     - label: Show this section
       name: show
@@ -202,7 +202,7 @@ collections:
           widget: text
   - name: research
     label: 5. Research Work
-    file: content/research.json
+    file: research.json
     fields:
     - label: Show this section
       name: show
@@ -241,7 +241,7 @@ collections:
         required: false
   - name: publications
     label: 6. Publications
-    file: content/publications.json
+    file: publications.json
     fields:
     - label: Show this section
       name: show
@@ -281,7 +281,7 @@ collections:
         required: false
   - name: books
     label: 7. Books
-    file: content/books.json
+    file: books.json
     fields:
     - label: Show this section
       name: show
@@ -324,7 +324,7 @@ collections:
         required: false
   - name: skills
     label: 8. Skills
-    file: content/skills.json
+    file: skills.json
     fields:
     - label: Show this section
       name: show
@@ -363,7 +363,7 @@ collections:
         widget: string
   - name: field
     label: 9. Field Activities
-    file: content/field.json
+    file: field.json
     fields:
     - label: Show this section
       name: show
@@ -399,7 +399,7 @@ collections:
         required: false
   - name: hobbies
     label: 10. Hobbies
-    file: content/hobbies.json
+    file: hobbies.json
     fields:
     - label: Show this section
       name: show
@@ -435,7 +435,7 @@ collections:
         required: false
   - name: awards
     label: 11. Awards
-    file: content/awards.json
+    file: awards.json
     fields:
     - label: Show this section
       name: show
@@ -471,7 +471,7 @@ collections:
         required: false
   - name: contact
     label: 12. Contact
-    file: content/contact.json
+    file: contact.json
     fields:
     - label: Show this section
       name: show
