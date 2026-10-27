@@ -1,0 +1,489 @@
+# ============================================================
+#  ADMIN PANEL SETTINGS
+#  Change 'repo' below to YOUR-GITHUB-USERNAME/REPO-NAME
+# ============================================================
+backend:
+  name: github
+  repo: samiumbasir68/portfolio
+  branch: main
+site_url: /
+media_folder: images
+public_folder: /images
+collections:
+- name: website
+  label: Website Content
+  editor:
+    preview: false
+  files:
+  - name: profile
+    label: 1. Profile & Hero
+    file: site.json
+    fields:
+    - label: Full name
+      name: name
+      widget: string
+    - label: Logo text (top-left)
+      name: logo
+      widget: string
+    - label: Greeting
+      name: greeting
+      widget: string
+    - label: Typing roles
+      name: roles
+      widget: list
+      field:
+        label: Role
+        name: role
+        widget: string
+    - label: Intro paragraph
+      name: intro
+      widget: text
+    - label: Profile photo
+      name: photo
+      widget: image
+      required: false
+    - label: CV (PDF)
+      name: cv
+      widget: file
+      required: false
+    - label: Email
+      name: email
+      widget: string
+    - label: Phone
+      name: phone
+      widget: string
+      required: false
+    - label: Location
+      name: location
+      widget: string
+      required: false
+    - label: LinkedIn URL
+      name: linkedin
+      widget: string
+      required: false
+    - label: Google Scholar URL
+      name: scholar
+      widget: string
+      required: false
+    - label: ResearchGate URL
+      name: researchgate
+      widget: string
+      required: false
+    - label: ORCID URL
+      name: orcid
+      widget: string
+      required: false
+  - name: about
+    label: 2. About
+    file: about.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image
+      name: image
+      widget: image
+      required: false
+    - label: Paragraphs
+      name: paragraphs
+      widget: list
+      field:
+        label: Paragraph
+        name: p
+        widget: text
+    - label: Info rows
+      name: info
+      widget: list
+      summary: '{{fields.label}}: {{fields.value}}'
+      fields:
+      - label: Label
+        name: label
+        widget: string
+      - label: Value
+        name: value
+        widget: string
+    - label: Counters
+      name: stats
+      widget: list
+      summary: '{{fields.number}}{{fields.suffix}} {{fields.label}}'
+      fields:
+      - label: Number
+        name: number
+        widget: number
+        value_type: int
+      - label: Suffix (e.g. +)
+        name: suffix
+        widget: string
+        required: false
+      - label: Label
+        name: label
+        widget: string
+  - name: education
+    label: 3. Education
+    file: education.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image
+      name: image
+      widget: image
+      required: false
+    - label: Degrees
+      name: items
+      widget: list
+      summary: '{{fields.date}} — {{fields.title}}'
+      fields:
+      - label: Year / dates
+        name: date
+        widget: string
+      - label: Degree
+        name: title
+        widget: string
+      - label: Institution & result
+        name: subtitle
+        widget: string
+      - label: Details (shown when clicked)
+        name: details
+        widget: text
+        required: false
+  - name: work
+    label: 4. Work
+    file: work.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image
+      name: image
+      widget: image
+      required: false
+    - label: Jobs
+      name: items
+      widget: list
+      summary: '{{fields.date}} — {{fields.title}}'
+      fields:
+      - label: Dates
+        name: date
+        widget: string
+      - label: Job title
+        name: title
+        widget: string
+      - label: Organisation
+        name: subtitle
+        widget: string
+      - label: Bullet points
+        name: points
+        widget: list
+        field:
+          label: Point
+          name: point
+          widget: text
+  - name: research
+    label: 5. Research Work
+    file: research.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image
+      name: image
+      widget: image
+      required: false
+    - label: Projects
+      name: items
+      widget: list
+      summary: '{{fields.title}}'
+      fields:
+      - label: Tag
+        name: tag
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Short summary
+        name: summary
+        widget: string
+      - label: Full details (popup)
+        name: details
+        widget: text
+      - label: Image
+        name: image
+        widget: image
+        required: false
+  - name: publications
+    label: 6. Publications
+    file: publications.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
+    - label: Papers
+      name: items
+      widget: list
+      summary: '{{fields.year}} — {{fields.title}}'
+      fields:
+      - label: Year
+        name: year
+        widget: string
+      - label: Paper title
+        name: title
+        widget: string
+      - label: Journal, volume
+        name: journal
+        widget: string
+      - label: First / corresponding author?
+        name: first_author
+        widget: boolean
+        default: false
+      - label: Link (DOI URL)
+        name: link
+        widget: string
+        required: false
+  - name: books
+    label: 7. Books
+    file: books.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
+    - label: Books / chapters
+      name: items
+      widget: list
+      summary: '{{fields.title}}'
+      fields:
+      - label: Tag (e.g. Book chapter · 2025)
+        name: tag
+        widget: string
+      - label: Book title
+        name: title
+        widget: string
+      - label: Short summary
+        name: summary
+        widget: string
+      - label: Full details (popup)
+        name: details
+        widget: text
+      - label: Cover image
+        name: image
+        widget: image
+        required: false
+      - label: Link
+        name: link
+        widget: string
+        required: false
+  - name: skills
+    label: 8. Skills
+    file: skills.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
+    - label: Skill bars
+      name: bars
+      widget: list
+      summary: '{{fields.name}} ({{fields.level}}%)'
+      fields:
+      - label: Skill
+        name: name
+        widget: string
+      - label: Level (0–100)
+        name: level
+        widget: number
+        value_type: int
+        min: 0
+        max: 100
+    - label: Tools & strengths (tags)
+      name: chips
+      widget: list
+      field:
+        label: Tag
+        name: chip
+        widget: string
+  - name: field
+    label: 9. Field Activities
+    file: field.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
+    - label: Activities
+      name: items
+      widget: list
+      summary: '{{fields.title}}'
+      fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Place
+        name: place
+        widget: string
+      - label: Details (popup)
+        name: details
+        widget: text
+      - label: Photo
+        name: image
+        widget: image
+        required: false
+  - name: hobbies
+    label: 10. Hobbies
+    file: hobbies.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
+    - label: Hobbies
+      name: items
+      widget: list
+      summary: '{{fields.title}}'
+      fields:
+      - label: Hobby
+        name: title
+        widget: string
+      - label: Caption
+        name: place
+        widget: string
+      - label: Details (popup)
+        name: details
+        widget: text
+      - label: Photo
+        name: image
+        widget: image
+        required: false
+  - name: awards
+    label: 11. Awards
+    file: awards.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
+    - label: Awards
+      name: items
+      widget: list
+      summary: '{{fields.title}}'
+      fields:
+      - label: Award
+        name: title
+        widget: string
+      - label: Giver · year
+        name: meta
+        widget: string
+      - label: Details (popup)
+        name: details
+        widget: text
+      - label: Photo (popup)
+        name: image
+        widget: image
+        required: false
+  - name: contact
+    label: 12. Contact
+    file: contact.json
+    fields:
+    - label: Show this section
+      name: show
+      widget: boolean
+      default: true
+    - label: Title
+      name: title
+      widget: string
+    - label: Small heading
+      name: subtitle
+      widget: string
+    - label: Section image (Explore tile)
+      name: image
+      widget: image
+      required: false
