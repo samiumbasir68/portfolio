@@ -1,0 +1,64 @@
+{
+  "show": true,
+  "title": "Publications",
+  "subtitle": "11 peer-reviewed · 6 first/corresponding author",
+  "image": "/images/publications.jpg",
+  "items": [
+    {
+      "year": "2025",
+      "title": "Tannery-area groundwater contamination",
+      "journal": "Results in Engineering",
+      "first_author": true,
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Heavy metal bioaccumulation in vegetables",
+      "journal": "Journal of Environmental Management, 393",
+      "first_author": false,
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Contamination in urban road dust",
+      "journal": "Environmental Pollution",
+      "first_author": false,
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "PFAS in an estuarine environment",
+      "journal": "Marine Pollution Bulletin, 212",
+      "first_author": false,
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "PFAS: a review",
+      "journal": "Water, Air, & Soil Pollution, 236",
+      "first_author": false,
+      "link": ""
+    },
+    {
+      "year": "2025",
+      "title": "Radioactivity in urban road dust",
+      "journal": "Environmental Toxicology and Chemistry, 44",
+      "first_author": false,
+      "link": ""
+    },
+    {
+      "year": "2024",
+      "title": "Urban river sediment contamination",
+      "journal": "Marine Pollution Bulletin, 203",
+      "first_author": true,
+      "link": ""
+    },
+    {
+      "year": "2023",
+      "title": "Further papers",
+      "journal": "Marine Pollution Bulletin · Environmental Science: Processes & Impacts · Water Environment Research",
+      "first_author": false,
+      "link": ""
+    }
+  ]
+}

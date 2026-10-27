@@ -1,0 +1,26 @@
+{
+  "show": true,
+  "title": "Hobbies",
+  "subtitle": "Beyond work",
+  "image": "/images/hobbies.jpg",
+  "items": [
+    {
+      "title": "Photography",
+      "place": "Nature & travel",
+      "details": "Capturing landscapes and everyday life during travel and fieldwork.",
+      "image": "/images/hobby-1.jpg"
+    },
+    {
+      "title": "Travelling",
+      "place": "Exploring Bangladesh",
+      "details": "Exploring rivers, hills and coastal areas across Bangladesh.",
+      "image": "/images/hobby-2.jpg"
+    },
+    {
+      "title": "Reading",
+      "place": "Science & fiction",
+      "details": "Science, history and fiction.",
+      "image": "/images/hobby-3.jpg"
+    }
+  ]
+}

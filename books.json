@@ -1,0 +1,24 @@
+{
+  "show": true,
+  "title": "Books & Chapters",
+  "subtitle": "Contributing author",
+  "image": "/images/books.jpg",
+  "items": [
+    {
+      "tag": "Book chapter · Year",
+      "title": "Book Title One",
+      "summary": "Chapter: \"Your chapter title\" — Publisher name.",
+      "details": "Chapter title, co-authors, publisher, year. Add a short description of your contribution here.",
+      "image": "/images/book-1.jpg",
+      "link": ""
+    },
+    {
+      "tag": "Book chapter · Year",
+      "title": "Book Title Two",
+      "summary": "Chapter: \"Your chapter title\" — Publisher name.",
+      "details": "Chapter title, co-authors, publisher, year. Add a short description of your contribution here.",
+      "image": "/images/book-2.jpg",
+      "link": ""
+    }
+  ]
+}

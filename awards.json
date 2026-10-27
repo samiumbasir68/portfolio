@@ -1,0 +1,26 @@
+{
+  "show": true,
+  "title": "Awards & Fellowships",
+  "subtitle": "Recognition",
+  "image": "/images/awards.jpg",
+  "items": [
+    {
+      "title": "NST Fellowship Grant",
+      "meta": "Ministry of Science and Technology · 2023–2024",
+      "details": "National Science and Technology (NST) Fellowship awarded by the Ministry of Science and Technology, Government of Bangladesh.",
+      "image": "/images/award-1.jpg"
+    },
+    {
+      "title": "Dean's Appreciation Award",
+      "meta": "For research publications · 2023, 2024",
+      "details": "Recognised twice by the Dean for research publications at Bangladesh University of Professionals.",
+      "image": "/images/award-2.jpg"
+    },
+    {
+      "title": "Merit Scholarship",
+      "meta": "Bangladesh University of Professionals · 2021–2022",
+      "details": "Merit-based scholarship from Bangladesh University of Professionals for academic excellence.",
+      "image": "/images/award-3.jpg"
+    }
+  ]
+}

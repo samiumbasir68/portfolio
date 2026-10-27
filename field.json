@@ -1,0 +1,44 @@
+{
+  "show": true,
+  "title": "Field Activities",
+  "subtitle": "Out in the field",
+  "image": "/images/field.jpg",
+  "items": [
+    {
+      "title": "Vegetable & Soil Sampling",
+      "place": "Dhaka · 34 zones",
+      "details": "Collecting vegetable and soil samples across 34 zones of Dhaka for the trace metal bioaccumulation study.",
+      "image": "/images/field-1.jpg"
+    },
+    {
+      "title": "River Sediment Collection",
+      "place": "Urban rivers, Dhaka",
+      "details": "Sediment and water sampling from Dhaka's urban rivers for heavy metal and radioactivity analysis.",
+      "image": "/images/field-2.jpg"
+    },
+    {
+      "title": "Community FGDs",
+      "place": "Compass Program",
+      "details": "Interviews, focus group discussions and surveys with diverse stakeholders for the US Forest Service International Compass Program.",
+      "image": "/images/field-3.jpg"
+    },
+    {
+      "title": "Urban Survey",
+      "place": "Khulna",
+      "details": "Field surveys on urban inequality indicators for the Fair Urban Transition Phase II project in Khulna.",
+      "image": "/images/field-4.jpg"
+    },
+    {
+      "title": "Laboratory Work",
+      "place": "INST, BAEC",
+      "details": "Sample preparation and instrumental analysis (AAS, INAA, HPGe) at the Institute of Nuclear Science & Technology, BAEC.",
+      "image": "/images/field-5.jpg"
+    },
+    {
+      "title": "Wetland Assessment",
+      "place": "ReWET, Dhaka",
+      "details": "Field visits supporting the restoration of Dhaka's urban wetlands.",
+      "image": "/images/field-6.jpg"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "show": true,
+  "title": "Work Experience",
+  "subtitle": "Career",
+  "image": "/images/work.jpg",
+  "items": [
+    {
+      "date": "Feb 2025 – Present",
+      "title": "Research Assistant",
+      "subtitle": "River and Delta Research Centre (RDRC), Dhaka",
+      "points": [
+        "Coordinate data collection, reporting and deliverables across multiple projects with cross-functional teams and external partners",
+        "Quality-check datasets and maintain accurate records for management decisions",
+        "Monitor progress against targets and timelines; flag risks early",
+        "Prepare technical summaries and status updates for senior management"
+      ]
+    },
+    {
+      "date": "Jun 2024 – Jan 2025",
+      "title": "M&E Assistant / Qualitative Data Enumerator",
+      "subtitle": "Compass Program, US Forest Service International Program",
+      "points": [
+        "Engaged diverse stakeholders through interviews, FGDs and surveys",
+        "Handled data collection, analysis and technical reporting to donor standards",
+        "Maintained consistent follow-up with partners for on-time delivery"
+      ]
+    },
+    {
+      "date": "Jul 2024 – Dec 2024",
+      "title": "Research Assistant (Part-time)",
+      "subtitle": "Dept. of Environmental Science, Bangladesh University of Professionals",
+      "points": [
+        "Supported research design, field data collection, laboratory analysis and report writing"
+      ]
+    },
+    {
+      "date": "Jul 2022 – May 2024",
+      "title": "Research Assistant (Apprenticeship)",
+      "subtitle": "Institute of Nuclear Science & Technology, Bangladesh Atomic Energy Commission",
+      "points": [
+        "Analysed soil, sediment, water and biological samples using AAS, INAA and HPGe gamma spectrometry",
+        "Interpreted results against regulatory and safety limits",
+        "Maintained documentation, instrument records and lab compliance",
+        "Contributed to 9+ co-authored international publications"
+      ]
+    }
+  ]
+}

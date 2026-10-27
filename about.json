@@ -1,0 +1,58 @@
+{
+  "show": true,
+  "title": "About Me",
+  "subtitle": "Who I am",
+  "image": "/images/about.jpg",
+  "paragraphs": [
+    "I'm a chemistry-trained environmental scientist with four years of hands-on experience in analytical chemistry (AAS, INAA, HPGe gamma spectrometry), project data management and stakeholder coordination.",
+    "My research focuses on heavy metals, PFAS, radioactivity and industrial chemical contamination in Bangladesh's rivers, soils, road dust and food. I enjoy bridging the lab and the real world — translating technical findings into clear reports for managers, partners and policymakers."
+  ],
+  "info": [
+    {
+      "label": "Name",
+      "value": "Md Samium Basir"
+    },
+    {
+      "label": "Location",
+      "value": "Dhaka, Bangladesh"
+    },
+    {
+      "label": "Email",
+      "value": "samiumbasir68@gmail.com"
+    },
+    {
+      "label": "Phone",
+      "value": "+880 1781 374632"
+    },
+    {
+      "label": "Degree",
+      "value": "MSc, Environmental Science"
+    },
+    {
+      "label": "Languages",
+      "value": "English, Bangla"
+    }
+  ],
+  "stats": [
+    {
+      "number": 4,
+      "suffix": "",
+      "label": "Years of Experience"
+    },
+    {
+      "number": 11,
+      "suffix": "",
+      "label": "Peer-reviewed Papers"
+    },
+    {
+      "number": 6,
+      "suffix": "",
+      "label": "First / Corresponding Author"
+    },
+    {
+      "number": 300,
+      "suffix": "+",
+      "label": "Samples Analysed"
+    }
+  ]
+}

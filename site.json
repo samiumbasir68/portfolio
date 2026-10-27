@@ -1,0 +1,21 @@
+{
+  "name": "Md Samium Basir",
+  "logo": "Samium",
+  "greeting": "Hello, I'm",
+  "roles": [
+    "Environmental Scientist",
+    "Analytical Chemist",
+    "Researcher",
+    "Data Analyst"
+  ],
+  "intro": "Environmental scientist and analytical chemist from Dhaka, working on trace metals, PFAS and industrial contamination — with 11 peer-reviewed publications and a passion for turning lab data into real-world decisions.",
+  "photo": "/images/profile.jpg",
+  "cv": "/cv.pdf",
+  "email": "samiumbasir68@gmail.com",
+  "phone": "+880 1781 374632",
+  "location": "Dhaka, Bangladesh",
+  "linkedin": "https://www.linkedin.com/",
+  "scholar": "https://scholar.google.com/",
+  "researchgate": "https://www.researchgate.net/",
+  "orcid": "https://orcid.org/"
+}

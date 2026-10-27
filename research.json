@@ -1,0 +1,43 @@
+{
+  "show": true,
+  "title": "Research Work",
+  "subtitle": "Projects",
+  "image": "/images/research.jpg",
+  "items": [
+    {
+      "tag": "Food safety",
+      "title": "Trace Metal(loid) Bioaccumulation, Dhaka",
+      "summary": "300+ samples across 34 zones of Dhaka.",
+      "details": "Planned and analysed 300+ samples across 34 zones of Dhaka to assess how trace metals and metalloids accumulate in vegetables and the wider food chain. Managed large datasets end-to-end and delivered findings on deadline.",
+      "image": "/images/research-1.jpg"
+    },
+    {
+      "tag": "Urban M&E",
+      "title": "Fair Urban Transition Phase II, Khulna",
+      "summary": "Urban inequality indicators, Khulna.",
+      "details": "Monitoring and evaluation of urban inequality indicators in Khulna city — designing indicators, collecting data and reporting progress.",
+      "image": "/images/research-2.jpg"
+    },
+    {
+      "tag": "Nature-based solutions",
+      "title": "ReWET – Restoring Urban Wetlands",
+      "summary": "Nature-based resilience in Dhaka.",
+      "details": "Data and reporting support for nature-based resilience work focused on restoring Dhaka's urban wetlands.",
+      "image": "/images/research-3.jpg"
+    },
+    {
+      "tag": "Industrial pollution",
+      "title": "Industrial Chemical Contamination",
+      "summary": "Tannery groundwater, PFAS, ionophores, heavy metals.",
+      "details": "Published studies on tannery-area groundwater, PFAS, ionophores and heavy metals — building working knowledge of industrial chemicals, their risks and their regulation.",
+      "image": "/images/research-4.jpg"
+    },
+    {
+      "tag": "Radioecology",
+      "title": "Radioactivity in Road Dust & Sediments",
+      "summary": "Road dust and sediment radionuclides.",
+      "details": "HPGe gamma spectrometry analysis of natural radionuclides in urban road dust and river sediments, with radiological risk assessment.",
+      "image": "/images/research-5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "show": true,
+  "title": "Education",
+  "subtitle": "Learning path",
+  "image": "/images/education.jpg",
+  "items": [
+    {
+      "date": "2024",
+      "title": "MSc in Environmental Science",
+      "subtitle": "Bangladesh University of Professionals — CGPA 3.69 / 4.00",
+      "details": "Advanced coursework in environmental chemistry, pollution monitoring and environmental management, with a research thesis on trace metal(loid) contamination."
+    },
+    {
+      "date": "2022",
+      "title": "BSc in Environmental Science",
+      "subtitle": "Bangladesh University of Professionals — CGPA 3.61 / 4.00",
+      "details": "Merit Scholarship recipient (2021–2022). Foundations in chemistry, ecology, GIS and environmental assessment."
+    },
+    {
+      "date": "2015 – 2017",
+      "title": "HSC (Science)",
+      "subtitle": "Birshreshtha Noor Mohammad Public College — GPA 5.00",
+      "details": "Higher Secondary Certificate in Science with a perfect GPA."
+    },
+    {
+      "date": "2010 – 2015",
+      "title": "SSC (Science)",
+      "subtitle": "Barashalghar Union M Ahmed High School — GPA 5.00",
+      "details": "Secondary School Certificate in Science with a perfect GPA."
+    }
+  ]
+}

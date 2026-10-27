@@ -1,0 +1,51 @@
+{
+  "show": true,
+  "title": "Skills",
+  "subtitle": "What I do",
+  "image": "/images/skills.jpg",
+  "bars": [
+    {
+      "name": "Analytical Chemistry (AAS, INAA, HPGe)",
+      "level": 90
+    },
+    {
+      "name": "Data Analysis (Excel, SPSS, OriginPro)",
+      "level": 88
+    },
+    {
+      "name": "Technical & Scientific Writing",
+      "level": 90
+    },
+    {
+      "name": "GIS (ArcGIS, Google Earth Engine)",
+      "level": 75
+    },
+    {
+      "name": "Python",
+      "level": 65
+    }
+  ],
+  "chips": [
+    "AAS",
+    "INAA",
+    "HPGe Gamma Spectrometry",
+    "Sample Preparation",
+    "QA/QC",
+    "Trace-element Analysis",
+    "MS Excel",
+    "SPSS",
+    "OriginPro",
+    "Python",
+    "Kobo Toolbox",
+    "ArcGIS",
+    "Google Earth Engine",
+    "Market Research",
+    "Stakeholder Engagement",
+    "FGDs & Interviews",
+    "M&E",
+    "Report Writing",
+    "Presentations",
+    "English",
+    "Bangla"
+  ]
+}
